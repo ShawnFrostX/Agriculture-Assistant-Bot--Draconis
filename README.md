@@ -1,21 +1,21 @@
 # Agriculture-Assistant-Bot--Draconis
 ## Transformer
 ### Self attention
-			Finding the important word in the sentence 
-			Query, key, value
-			= softmax(QKT/√(d_k ))V
-				Dk - dimensionality
-				Q - query
-				K - key/response
-				V - value
-				Softmax(a) = ea/∑▒e^b 
-		6 layers:
-			1.Input embedding - converting to vectors ( numbers)
-			2.Positional encoding - maps to another number
-			3.Self attention - gives a new set of numbers
-			4.Feed forward - in-depth feature extraction
-			5.Normalization 
-			6.Output
+Finding the important word in the sentence 
+Query, key, value
+= softmax(QKT/√(d_k ))V
+	Dk - dimensionality
+	Q - query
+	K - key/response
+	V - value
+	Softmax(a) = ea/∑▒e^b 
+6 layers:
+	1.Input embedding - converting to vectors ( numbers)
+	2.Positional encoding - maps to another number
+	3.Self attention - gives a new set of numbers
+	4.Feed forward - in-depth feature extraction
+	5.Normalization 
+	6.Output
 			
 		Eg: the quick brown fox jumps over the lazy dog
 			i. E1…….e9
