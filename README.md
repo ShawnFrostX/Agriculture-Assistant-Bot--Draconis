@@ -1,6 +1,6 @@
 # Agriculture-Assistant-Bot--Draconis
 ## Transformer 
-       Self attention
+       	Self attention:
 	Finding the important word in the sentence 
 	Query, key, value
 	= softmax(QK/√(Dk))V
