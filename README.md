@@ -88,5 +88,13 @@ Create an adaptor model using existing layers, and merge the adaptor model with 
 
 ![Training](https://github.com/ShawnFrostX/Agriculture-Assistant-Bot--Draconis/blob/ce610d019fdaa3196275047ce1b8a0632e673368/Report.png)
 
+Had limitations like Blunder generation and Hallucination  
+Generates unexpected responses for unknown inputs  
 
+## RAG(Retrieval Augmented Generation)  
+Can use RAG to modify data and further improve the model  
+Uses langchain and db vectors for optimization
 
+[quant_rag.ipynb - Colab (google.com)](https://colab.research.google.com/drive/1qkeulBrOrRftebrVqFr4ivE_6pRj4saK?authuser=2#scrollTo=MloXh3yjC7iM)
+
+The RAG helped add more data but could not perform well when greeting input was given. It responded with the answers for random Questions from the data.
