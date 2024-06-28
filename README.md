@@ -80,8 +80,13 @@ original sentence: I have a dog
 tokenized sentence: ['_','I','_ha','v','e','_','a','_dog']
 ```
 
-**Fine tuning**  
+## Fine tuning
 **Low rank adaptation:**   
-Create an adaptor model using existing layers, and merge the adaptor model with original model, Reducing the rank of large matrix to get smaller rank matrix to reduce computational complexity
+Create an adaptor model using existing layers, and merge the adaptor model with original model, Reducing the rank of large matrix to get smaller rank matrix to reduce computational complexity 
+
+[LLM_Fine-Tuning_new.ipynb - Colab (google.com)](https://colab.research.google.com/drive/1RdePhapMcBCplrhtN4N5-27ttjb4OVhO?authuser=2)
+
+![Training](https://github.com/ShawnFrostX/Agriculture-Assistant-Bot--Draconis/blob/ce610d019fdaa3196275047ce1b8a0632e673368/Report.png)
+
 
 
