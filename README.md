@@ -88,7 +88,7 @@ Create an adaptor model using existing layers, and merge the adaptor model with 
 
 ![Training](https://github.com/ShawnFrostX/Agriculture-Assistant-Bot--Draconis/blob/ce610d019fdaa3196275047ce1b8a0632e673368/Report.png)
 
-*Had limitations like Blunder generation and Hallucination* 
+*Had limitations like Blunder generation and Hallucination*  
 *Generates unexpected responses for unknown inputs*  
 
 ## RAG(Retrieval Augmented Generation)  
