@@ -92,7 +92,7 @@ Had limitations like Blunder generation and Hallucination
 Generates unexpected responses for unknown inputs  
 
 ## RAG(Retrieval Augmented Generation)  
-Can use RAG to modify data and further improve the model  
+Using RAG facilitates modifying data and further improve the model  
 Uses langchain and db vectors for optimization
 
 [quant_rag.ipynb - Colab (google.com)](https://colab.research.google.com/drive/1qkeulBrOrRftebrVqFr4ivE_6pRj4saK?authuser=2#scrollTo=MloXh3yjC7iM)
