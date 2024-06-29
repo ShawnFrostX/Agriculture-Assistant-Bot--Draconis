@@ -262,3 +262,6 @@ Clicke [here](https://medium.com/techfront/step-by-step-visual-guide-on-deployin
 
 
 ## Reference
+
+TinyLlama-1.1B-Chat-v1.0  
+https://pypi.org/project/llama-cpp-python/
