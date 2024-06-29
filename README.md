@@ -1,5 +1,9 @@
 # Agriculture-Assistant-Bot--Draconis
-## Transformer 
+## Problem Statement
+To create a LLM model with data regarding the different disease affecting common crops grown in kerala
+
+## Solution
+### Transformer 
 
 **Self attention:**  
 Finding the important word in the sentence.  
@@ -56,17 +60,17 @@ Softmax(a) = e^a/∑e^b
 
 
 
-## Architecture
-[Python Intro](https://colab.research.google.com/drive/1DbxjnrSEhoLEIFb9arz2-U0OR7N4abfM#scrollTo=F2ikhLFfuon_)
+### Architecture
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1DbxjnrSEhoLEIFb9arz2-U0OR7N4abfM#scrollTo=F2ikhLFfuon_) : Python Intro
 
-[Transformers_Architecture.ipynb - Colab (google.com)](https://colab.research.google.com/drive/1P6hG2t0ijSnVQ3Y0wx1ixTiuotN0DeLC?usp=sharing#scrollTo=YCSiAqIjeNMD)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1P6hG2t0ijSnVQ3Y0wx1ixTiuotN0DeLC?usp=sharing#scrollTo=YCSiAqIjeNMD) : Transformers_Architecture
 
 - Generating text through transformers  
 - Vocab creation  
 - Indexing token and vice versa  
 - Transformer: embedding -> forward  
 
-[Tokenization_with_bpe_sentencepiece.ipynb - Colab (google.com)](https://colab.research.google.com/drive/1CnLOHFRdrg3Hw7-DN7FiuPreAq6nLKnD?usp=sharing)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1CnLOHFRdrg3Hw7-DN7FiuPreAq6nLKnD?usp=sharing) : Transformers_Architecture
 
 - Split the sentence and check each adjacent elements
 - Create pairs and their frequency count
@@ -80,21 +84,36 @@ original sentence: I have a dog
 tokenized sentence: ['_','I','_ha','v','e','_','a','_dog']
 ```
 
-## Fine tuning
+### Fine tuning
 **Low rank adaptation:**   
 Create an adaptor model using existing layers, and merge the adaptor model with original model, Reducing the rank of large matrix to get smaller rank matrix to reduce computational complexity 
 
-[LLM_Fine-Tuning_new.ipynb - Colab (google.com)](https://colab.research.google.com/drive/1RdePhapMcBCplrhtN4N5-27ttjb4OVhO?authuser=2)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1RdePhapMcBCplrhtN4N5-27ttjb4OVhO?authuser=2) : LLM_Fine-Tuning_new
 
 ![Training](https://github.com/ShawnFrostX/Agriculture-Assistant-Bot--Draconis/blob/ce610d019fdaa3196275047ce1b8a0632e673368/Report.png)
 
-*Had limitations like Blunder generation and Hallucination*  
-*Generates unexpected responses for unknown inputs*  
+## Limitations
 
-## RAG(Retrieval Augmented Generation)  
-Using RAG facilitates modifying data and further improve the model  
-Uses *langchain* and *db vectors* for optimization
+Had limitations like Blunder generation and Hallucination  
+Generates unexpected responses for unknown inputs  
 
-[quant_rag.ipynb - Colab (google.com)](https://colab.research.google.com/drive/1qkeulBrOrRftebrVqFr4ivE_6pRj4saK?authuser=2#scrollTo=MloXh3yjC7iM)
+## Applying RAG and overcoming limitations
 
-*The RAG helped add more data but could not perform well when greeting input was given. It responded with the answers for random Questions from the data.*
+Can use RAG to modify data and further improve the model  
+The RAG helped add more data  
+Uses langchain and db vectors for optimization
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1qkeulBrOrRftebrVqFr4ivE_6pRj4saK?authuser=2#scrollTo=MloXh3yjC7iM) : quant_rag
+
+**Limitations**  
+
+Could not perform well when greeting input was given.  
+It responded with the answers for random Questions from the data.
+
+## Further research
+
+
+
+## Deployment
+
+## Reference
