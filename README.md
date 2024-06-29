@@ -105,7 +105,7 @@ Uses langchain and db vectors for optimization
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1qkeulBrOrRftebrVqFr4ivE_6pRj4saK?authuser=2#scrollTo=MloXh3yjC7iM) : quant_rag
 
-**Limitations**  
+### Limitations   
 
 Could not perform well when greeting input was given.  
 It responded with the answers for random Questions from the data.
